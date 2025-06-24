@@ -1,0 +1,153 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: whitesmoke;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: navy;
+  color: white;
+  padding: 18px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: skyblue;
+}
+
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+  background: lightblue;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: blue;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: royalblue;
+}
+
+.about {
+  background: white;
+  padding: 60px 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+  justify-content: center;
+  text-align: left;
+}
+
+.about .text {
+  flex: 1 1 300px;
+}
+
+.about .info-box {
+  flex: 1 1 250px;
+  background: honeydew;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px lightgray;
+}
+
+.features {
+  background: lavender;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px lightgray;
+  font-weight: bold;
+}
+
+.contact {
+  background: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  font-size: 14px;
+}
+
+button {
+  background: blue;
+  color: white;
+  padding: 12px;
+  margin-top: 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: navy;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  margin-top: 40px;
+}
