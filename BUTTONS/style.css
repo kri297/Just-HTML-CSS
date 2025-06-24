@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+  background: gainsboro;
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.btn-box {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 14px 24px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary {
+  background: blue;
+  color: white;
+}
+
+.primary:hover {
+  background: navy;
+}
+
+.outline {
+  background: transparent;
+  border: 2px solid blue;
+  color: blue;
+}
+
+.outline:hover {
+  background: blue;
+  color: white;
+}
+
+.glow {
+  background: indigo;
+  color: white;
+  box-shadow: 0 0 8px indigo;
+}
+
+.glow:hover {
+  box-shadow: 0 0 16px indigo;
+}
+
+.rounded {
+  background: darkgreen;
+  color: white;
+  border-radius: 50px;
+}
+
+.shadow {
+  background: black;
+  color: white;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}

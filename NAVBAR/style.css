@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 26px;
+}
+
+nav {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.nav-dark {
+  background: #1a1a1a;
+}
+
+.nav-dark a {
+  color: #fff;
+}
+
+.nav-dark a:hover {
+  color: #00f0ff;
+}
+
+.nav-gradient {
+  background: linear-gradient(90deg, #ee0979, #ff6a00);
+}
+
+.link-hover {
+  position: relative;
+  color: #fff;
+}
+
+.link-hover::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s ease;
+}
+
+.link-hover:hover::after {
+  width: 100%;
+}
+
+.nav-logo {
+  justify-content: space-between;
+  background: #222;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+.nav-logo .brand {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-logo ul {
+  gap: 20px;
+}
+
+.nav-logo a {
+  color: #ccc;
+}
+
+.nav-logo a:hover {
+  color:black;
+}

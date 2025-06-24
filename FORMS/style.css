@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  background: whitesmoke;
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.form-box {
+  width: 300px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px lightgray;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+
+.login-form {
+  background: black;
+  color: white;
+}
+
+.login-form input,
+.login-form button {
+  background: white;
+  color: black;
+}
+
+.login-form button {
+  background: dodgerblue;
+  color: white;
+}
+
+.login-form button:hover {
+  background: royalblue;
+}
+
+.signup-form {
+  background: honeydew;
+}
+
+.signup-form input {
+  background: white;
+  border: 1px solid darkgreen;
+}
+
+.signup-form button {
+  background: green;
+  color: white;
+}
+
+.signup-form button:hover {
+  background: darkgreen;
+}
+
+.contact-form {
+  background: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: white;
+  border: 1px solid lightgray;
+}
+
+.contact-form button {
+  background: skyblue;
+  color: black;
+}
+
+.contact-form button:hover {
+  background: deepskyblue;
+}
